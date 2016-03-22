@@ -16,6 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cm.mk
-k \
-    $(LOCAL_DIR)/aospb.mk \
-    $(LOCAL_DIR)/tesla.mk
