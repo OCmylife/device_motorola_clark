@@ -123,7 +123,6 @@ etc/firmware/cpp_firmware_v1_2_0.fw
 etc/firmware/cpp_firmware_v1_4_0.fw
 etc/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw
-etc/permissions/com.motorola.camera.xml
 etc/permissions/com.motorola.gallery.xml
 lib/hw/camera.msm8992.so:lib/hw/camera.vendor.msm8992.so
 lib/libmot_lux_standardization.so
