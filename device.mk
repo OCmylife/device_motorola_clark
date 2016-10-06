@@ -56,16 +56,15 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     libmmcamera_interface \
     libmmjpeg_interface \
-    mm-qcamera-app \
-    Snap
+    mm-qcamera-app
 
 # CMActions
-PRODUCT_PACKAGES += \
-    CMActions \
-    libjni_CMActions
+#PRODUCT_PACKAGES += \
+#    CMActions \
+#    libjni_CMActions
 
 # Display
-PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_CONFIG := xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 1440
