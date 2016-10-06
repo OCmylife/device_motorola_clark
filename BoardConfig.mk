@@ -62,12 +62,6 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS := \
-    $(DEVICE_PATH)/cmhw \
-    hardware/cyanogen/cmhw
-
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
@@ -130,7 +124,6 @@ TARGET_PROVIDES_LIBLIGHT := true
 TARGET_PER_MGR_ENABLED := true
 
 # Platform
-BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := msm8992
 TARGET_BOOTLOADER_BOARD_NAME := clark
 TARGET_NO_RADIOIMAGE := true
@@ -148,12 +141,9 @@ PROTOBUF_SUPPORTED := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
 
 # Ril
-TARGET_RIL_VARIANT := caf
 BOARD_PROVIDES_LIBRIL := true
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
-
 BOARD_SEPOLICY_DIRS += \
     $(DEVICE_PATH)/sepolicy
 
